@@ -54,10 +54,13 @@ sudo cp blink.u2f /media/anton/RPI-RP2/
 - [윈도우에서 세팅하는 방법](https://shawnhymel.com/2096/how-to-set-up-raspberry-pi-pico-c-c-toolchain-on-windows-with-vs-code/)
 
 ## Open OCD (On-Chip-Debugger) 
-라즈베리파 3B+에 OPEN OCD를 설치하여 디버깅으로 사용해보기 
+라즈베리파이 3B+에 OPEN OCD를 설치하여 디버깅으로 사용해보기 
 
 *OpenOCD란?  
 : 제조사에서 제공해주는 tool을 사용하지 않고 프로그램할 때 필요하다. 
+
+*참고:  
+라즈베리파이 말고 디버깅을 위한 [debug-porbe](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html) 보드도 존재한다.
 
 ### 라즈베리파이 3B+에 OpenOCD 설치하기
 ```bash 
